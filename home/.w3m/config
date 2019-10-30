@@ -75,11 +75,11 @@ index_file
 mime_types ~/.mime.types, /etc/mime.types
 mailcap ~/.w3m/mailcap, /etc/w3m/mailcap
 urimethodmap ~/.w3m/urimethodmap, /etc/w3m/urimethodmap
-editor /usr/bin/vi
+editor /usr/bin/emacs
 mailto_options 1
 mailer 
-extbrowser /usr/bin/xdg-open
-extbrowser2 
+extbrowser /home/dmc/.bin/urlportal.sh
+extbrowser2 /usr/bin/firefox
 extbrowser3 
 extbrowser4 
 extbrowser5 

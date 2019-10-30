@@ -1,2 +1,1 @@
-open url under cursor (default: Esc+Shift+M); e.g 2+Esc+Shift+M
 keymap  e       EXTERN_LINK ~/.bin/urlportal.sh
