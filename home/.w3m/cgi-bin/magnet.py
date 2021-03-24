@@ -13,7 +13,7 @@ if not uri:
     print "Error: No URI"
     sys.exit()
 
-cmd_list = ("transmission-remote", "-a", uri)
+cmd_list = ("sudo", "ts-bt", "transmission-remote", "-a", uri)
 
 subprocess.call(cmd_list)
 
